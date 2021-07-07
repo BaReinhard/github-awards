@@ -10,7 +10,7 @@ gem 'yajl-ruby',                    '~> 1.2.1'
 gem 'pg',                           '~> 0.18.2'
 gem 'sidekiq',                      '~> 3.4.2'
 gem 'sidekiq-throttler',            '~> 0.4.1'
-gem 'octokit',                      '~> 3.7.0'
+gem 'octokit', '~> 4.6.0'
 gem 'octicons-rails',               '~> 2.1.1'
 gem 'actionpack-action_caching',    '~> 1.1.1'
 gem 'redis',                        '~> 3.2.0'
@@ -41,7 +41,7 @@ group :test do
   gem 'factory_girl_rails',         '~> 4.5.0'
   gem 'mocha',                      '~> 1.1.0'
   gem 'fakeredis',                  '~> 0.5.0'
-  gem 'webmock',                    '~> 1.20.4'
+  gem 'webmock', '~> 1.20.4'
   gem 'vcr',                        '~> 2.9.3'
 end
 
