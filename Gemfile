@@ -37,7 +37,7 @@ group :development do
 end
 
 group :test do
-  gem 'rspec-rails',                '~> 3.0'
+  gem 'rspec-rails', '~> 8.0', '>= 8.0.0'
   gem 'factory_girl_rails',         '~> 4.5.0'
   gem 'mocha',                      '~> 1.1.0'
   gem 'fakeredis',                  '~> 0.5.0'
